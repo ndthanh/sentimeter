@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "status": "DRAFT_AWAITING_USER_APPROVAL",
+  "language": "vi",
+  "model_id": "eleven_v3",
+  "blocks": [
+    {
+      "id": "verification",
+      "start_gate": "accept_call",
+      "turns": [
+        {
+          "id": "verification-01",
+          "speaker": "operator",
+          "text": "Em chào chị Hà, em là Linh Anh, tổng đài viên Techcombank. Để hỗ trợ chị, em xin phép xác nhận một số thông tin. Chị cho em biết ngày, tháng, năm sinh của chị được không ạ?",
+          "on_end": []
+        },
+        {
+          "id": "verification-02",
+          "speaker": "customer",
+          "text": "Chị sinh ngày mười hai tháng ba năm một nghìn chín trăm chín mươi.",
+          "on_end": []
+        },
+        {
+          "id": "verification-03",
+          "speaker": "operator",
+          "text": "Dạ, ngày sinh của chị đã khớp với thông tin trên hệ thống. Chị vui lòng đọc giúp em số căn cước công dân ạ.",
+          "on_end": [
+            "verify_dob"
+          ]
+        },
+        {
+          "id": "verification-04",
+          "speaker": "customer",
+          "text": "Số căn cước của chị là không không một, không chín không, không không chín, hai tám một.",
+          "on_end": []
+        },
+        {
+          "id": "verification-05",
+          "speaker": "operator",
+          "text": "Em đã đối chiếu, thông tin căn cước của chị trùng khớp. Cảm ơn chị. Hôm nay em có thể hỗ trợ chị vấn đề gì ạ?",
+          "on_end": [
+            "verify_national_id",
+            "identity_verified"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "request",
+      "start_gate": "verification_ended",
+      "turns": [
+        {
+          "id": "request-01",
+          "speaker": "customer",
+          "text": "Ngày mười lăm tháng mười, chị có chi tiêu mười hai triệu đồng bằng thẻ tín dụng trên Trip chấm com, mà đến giờ chị vẫn chưa thấy được cộng điểm thưởng. Em kiểm tra giúp chị với.",
+          "on_end": [
+            "request_captured",
+            "classify_case"
+          ]
+        },
+        {
+          "id": "request-02",
+          "speaker": "operator",
+          "text": "Dạ, em ghi nhận chị muốn kiểm tra điểm thưởng cho giao dịch mười hai triệu đồng tại Trip chấm com, ngày mười lăm tháng mười. Đúng giao dịch này phải không chị?",
+          "on_end": []
+        },
+        {
+          "id": "request-03",
+          "speaker": "customer",
+          "text": "Đúng rồi em. Chị thấy giao dịch trực tuyến được tích điểm nên muốn biết vì sao giao dịch này lại chưa có.",
+          "on_end": []
+        },
+        {
+          "id": "request-04",
+          "speaker": "operator",
+          "text": "Dạ, chị cho em xin phép giữ máy trong giây lát để kiểm tra thông tin giao dịch và lịch sử tích điểm cho chị nhé.",
+          "on_end": []
+        },
+        {
+          "id": "request-05",
+          "speaker": "customer",
+          "text": "Ừ, em kiểm tra giúp chị nhé.",
+          "on_end": [
+            "hold_enabled"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resolution",
+      "start_gate": "resume_call",
+      "turns": [
+        {
+          "id": "resolution-01",
+          "speaker": "operator",
+          "text": "Cảm ơn chị Hà đã chờ. Em đã kiểm tra và thấy giao dịch mười hai triệu đồng tại Trip chấm com đang ở trạng thái thất bại trên hệ thống điểm thưởng. Đây là lý do giao dịch chưa được cộng điểm cho chị.",
+          "on_end": []
+        },
+        {
+          "id": "resolution-02",
+          "speaker": "customer",
+          "text": "Vậy có phải chị đã tích đủ hạn mức điểm trong tháng rồi không em?",
+          "on_end": []
+        },
+        {
+          "id": "resolution-03",
+          "speaker": "operator",
+          "text": "Dạ không chị. Các giao dịch tích điểm thành công trong tháng của chị hiện là một trăm tám mươi nghìn điểm, còn hạn mức là năm trăm nghìn điểm. Em cũng đã đối chiếu điều kiện của thẻ và mã ngành của đơn vị chấp nhận thẻ; giao dịch đáp ứng điều kiện chương trình. Trường hợp này chưa được cộng điểm vì giao dịch trên hệ thống điểm thưởng báo thất bại.",
+          "on_end": []
+        },
+        {
+          "id": "resolution-04",
+          "speaker": "customer",
+          "text": "Vậy bây giờ chị cần làm gì để được kiểm tra lại?",
+          "on_end": []
+        },
+        {
+          "id": "resolution-05",
+          "speaker": "operator",
+          "text": "Em đề xuất lập yêu cầu kiểm tra giao dịch thất bại và chuyển bộ phận phụ trách đối soát quyền lợi điểm thưởng cho chị. Chị đồng ý để em ghi nhận yêu cầu này chứ ạ?",
+          "on_end": []
+        },
+        {
+          "id": "resolution-06",
+          "speaker": "customer",
+          "text": "Chị đồng ý. Em giúp chị ghi nhận nhé.",
+          "on_end": [
+            "followup_enabled"
+          ]
+        },
+        {
+          "id": "resolution-07",
+          "speaker": "operator",
+          "text": "Dạ, em đã ghi nhận nội dung chị yêu cầu. Ngân hàng sẽ liên hệ lại với chị qua số điện thoại đã đăng ký khi có kết quả xử lý. Chị còn cần em hỗ trợ thêm thông tin nào không ạ?",
+          "on_end": []
+        },
+        {
+          "id": "resolution-08",
+          "speaker": "customer",
+          "text": "Không, chị cảm ơn em.",
+          "on_end": []
+        },
+        {
+          "id": "resolution-09",
+          "speaker": "operator",
+          "text": "Em cảm ơn chị Hà đã liên hệ Techcombank. Em chào chị ạ.",
+          "on_end": [
+            "call_complete"
+          ]
+        }
+      ]
+    }
+  ]
+}

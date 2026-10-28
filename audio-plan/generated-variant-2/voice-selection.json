@@ -1,0 +1,8 @@
+{
+  "voice_ids": {
+    "operator": "xeRzNgA5BGMAmllSnOuF",
+    "customer": "n4euYTvlgaZvihJPnNDf"
+  },
+  "script_sha256": "314f3f78465c21497d88b26b1e7198c8097053b7ac23c081a42eae5ba7f1e097",
+  "note": "This variant has its own audio timing. Do not reuse another variant cue manifest."
+}

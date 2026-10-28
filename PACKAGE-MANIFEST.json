@@ -1,0 +1,336 @@
+{
+  "status": "approved-for-github",
+  "repository": "ndthanh/sentimeter",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 48,
+      "sha256": "e8a06dd9dfd756d1e9d2766a9cdbeb2df4d029052ef498cc067e3b9795e2e922"
+    },
+    {
+      "path": "HANDOFF.md",
+      "size": 19315,
+      "sha256": "9e40ceaac92f21ac682f71ec73fc0dfb82915593e67ac85b5ae1e240d5e16ae5"
+    },
+    {
+      "path": "PLAN-AND-HANDOFF.md",
+      "size": 255,
+      "sha256": "92ae7e06db329797efd7f55196e72c436202f08585ebedeadf345073f83a0df3"
+    },
+    {
+      "path": "README.md",
+      "size": 950,
+      "sha256": "dbf93a3aeb4c6982e32dea2e4a4e79311ef455f402070ba18a2afa9e492bec4e"
+    },
+    {
+      "path": "REVIEW-CHECKLIST.md",
+      "size": 3177,
+      "sha256": "87b3eaee2b4cc996f31416cfdfdc5652a668b2ba0fdc0ae639ea88b9f5206ed5"
+    },
+    {
+      "path": "audio-plan/APPROVAL.json",
+      "size": 244,
+      "sha256": "dfa06dad24747f8f59c595634d4e687871e54e2625522b74f1fcaf648fa92538"
+    },
+    {
+      "path": "audio-plan/GENERATED.md",
+      "size": 1578,
+      "sha256": "b856888df185ec7200cfc0b683a468c54e6f8566d9db342fa80fbcac871dc768"
+    },
+    {
+      "path": "audio-plan/PLAN.md",
+      "size": 6258,
+      "sha256": "18b0db3a79e314c6b48f64fc82548df046a2816682889209cea1b547c97bbdc3"
+    },
+    {
+      "path": "audio-plan/SCRIPT-REVIEW.md",
+      "size": 3954,
+      "sha256": "a30463dc7bf9055195b92f7b5a08dbc263c740de043845bbbdae4f4c632cc616"
+    },
+    {
+      "path": "audio-plan/build_ui_cues.py",
+      "size": 1946,
+      "sha256": "47701c41b6ff14350b2b4267feada6bdbd0a4a155975de8b3bedeb291db5391c"
+    },
+    {
+      "path": "audio-plan/create_script.py",
+      "size": 4040,
+      "sha256": "f5c013f5059da27797f3411ef2b680ab746c263cbc821afc3727e1a7ed261001"
+    },
+    {
+      "path": "audio-plan/generate_audio.py",
+      "size": 4259,
+      "sha256": "5ea9771648b368f251849653a7d25942a839a18a4fdcb0af43e9266a173ecc91"
+    },
+    {
+      "path": "audio-plan/generated/01-verification.mp3",
+      "size": 582260,
+      "sha256": "65a6447af36571a007bd504d490e2c3a9243a614f8936c1181513d4ede9cecbd"
+    },
+    {
+      "path": "audio-plan/generated/02-request.mp3",
+      "size": 565541,
+      "sha256": "44458899797dbced269b1f3e297038a09cd7430de47d0e33cfaba9f7f567880d"
+    },
+    {
+      "path": "audio-plan/generated/03-resolution.mp3",
+      "size": 1130204,
+      "sha256": "5e5c69026e857fedbce8d2c227c0d1a4b4d23e2f75aa4d591f6610335dee737d"
+    },
+    {
+      "path": "audio-plan/generated/manifest.json",
+      "size": 7702,
+      "sha256": "110646524be3ae44c02d3b2db5adbb30c29b3b1eb1ca4be10810848ab1191840"
+    },
+    {
+      "path": "audio-plan/generated/playback-manifest.json",
+      "size": 9958,
+      "sha256": "c68aaa85ec008ea6b068114a30e22ac4364535790b4293ae7b1ba55a81e22282"
+    },
+    {
+      "path": "audio-plan/generated/request-384803657451.json",
+      "size": 52237,
+      "sha256": "12e1ce7ead5d8a51a8912ef0e53707664424337f6978aba35ff745b0f74d8dbd"
+    },
+    {
+      "path": "audio-plan/generated/request-384803657451.mp3",
+      "size": 565541,
+      "sha256": "44458899797dbced269b1f3e297038a09cd7430de47d0e33cfaba9f7f567880d"
+    },
+    {
+      "path": "audio-plan/generated/resolution-3fa06009c50d.json",
+      "size": 99450,
+      "sha256": "144d0efeccbbe7961dcd411a531734eed6b134d45f7b75a4f70ec18977daa3e6"
+    },
+    {
+      "path": "audio-plan/generated/resolution-3fa06009c50d.mp3",
+      "size": 1130204,
+      "sha256": "5e5c69026e857fedbce8d2c227c0d1a4b4d23e2f75aa4d591f6610335dee737d"
+    },
+    {
+      "path": "audio-plan/generated/timing-report.json",
+      "size": 765,
+      "sha256": "4fbe0b281e4dfca9910d9e4ee2b7aade30925f2f433932fdffccdbeb2eee2e2b"
+    },
+    {
+      "path": "audio-plan/generated/ui-manifest.json",
+      "size": 9988,
+      "sha256": "5d811f29bfc3793db675c790f2063b95359e4daa9b44c722245e765fd9e874c3"
+    },
+    {
+      "path": "audio-plan/generated/verification-10700fcc87b5.json",
+      "size": 48417,
+      "sha256": "1badf758ea96d12f2fce0b404d3e736dfeb80def9ba487ec459ad8b0c6ef7a1d"
+    },
+    {
+      "path": "audio-plan/generated/verification-10700fcc87b5.mp3",
+      "size": 582260,
+      "sha256": "65a6447af36571a007bd504d490e2c3a9243a614f8936c1181513d4ede9cecbd"
+    },
+    {
+      "path": "audio-plan/generated/voice-selection.json",
+      "size": 421,
+      "sha256": "4cbda06581ba3481620892a2eb78726b08db7590e7b0b5b05888c72674460517"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/01-verification.mp3",
+      "size": 651223,
+      "sha256": "17f0d538e358f1f6cd63a0df569fba33df3ab8324e537bf3adf0cf520ce339f9"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/02-request.mp3",
+      "size": 616950,
+      "sha256": "ec278983e96cff7999f3fc1645f7af314c18f128ceaa753e8380592d9c7e1a59"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/03-resolution.mp3",
+      "size": 1219647,
+      "sha256": "0278fcc0f0ad8ce545a1e29d636a8024746e9a8af259114a910db614bc4473bf"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/manifest.json",
+      "size": 7469,
+      "sha256": "79d63cd63777dde0ad605aa40e1674feae653949daf3c83f288beedba1e70abf"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/playback-manifest.json",
+      "size": 9713,
+      "sha256": "086b234f9a5014097458c9b57de02a4557e401c35deb193520450d44734bac8a"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/request-690fdfeb9b8b.json",
+      "size": 52132,
+      "sha256": "48001a120651c96c78dce239fbdc8e05afdcad2efdb5be70e91bf8b04482cef9"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/request-690fdfeb9b8b.mp3",
+      "size": 616950,
+      "sha256": "ec278983e96cff7999f3fc1645f7af314c18f128ceaa753e8380592d9c7e1a59"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/resolution-4b681848e351.json",
+      "size": 99468,
+      "sha256": "b646a92608ed0310d28f47c669949f68a198f6a97363bce755aa197b48eabc22"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/resolution-4b681848e351.mp3",
+      "size": 1219647,
+      "sha256": "0278fcc0f0ad8ce545a1e29d636a8024746e9a8af259114a910db614bc4473bf"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/timing-report.json",
+      "size": 766,
+      "sha256": "e8eeee1a0812b84bc66fbc52cc2fbc4d0d6c12f7671f20d3ef70e7de01403827"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/ui-manifest.json",
+      "size": 9743,
+      "sha256": "a4cc2eba9ffe89636d9541af8435505758f601a2de1465055ebf8fcd06e7e8b5"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/verification-283f7742ad8d.json",
+      "size": 48479,
+      "sha256": "c54da942fb7cdfe170af2bfa15781a648cf3f97e07d676ec0e9c1e2b8b85c095"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/verification-283f7742ad8d.mp3",
+      "size": 651223,
+      "sha256": "17f0d538e358f1f6cd63a0df569fba33df3ab8324e537bf3adf0cf520ce339f9"
+    },
+    {
+      "path": "audio-plan/generated-variant-2/voice-selection.json",
+      "size": 285,
+      "sha256": "88a513919e96e5df9ca6b12b7af2a2df690bf42d2548e81bc8ab77abcd44460b"
+    },
+    {
+      "path": "audio-plan/package_variant.py",
+      "size": 1058,
+      "sha256": "e60866ea833674607271c9a602af66eb06849226c1e24a985d03dc59b14eae2e"
+    },
+    {
+      "path": "audio-plan/script.vi.json",
+      "size": 6215,
+      "sha256": "314f3f78465c21497d88b26b1e7198c8097053b7ac23c081a42eae5ba7f1e097"
+    },
+    {
+      "path": "audio-plan/validate_timing.py",
+      "size": 1711,
+      "sha256": "998235af77cd8cf5d14a2c965f2226dfd90347290758d926f8bff8ec0f19eb25"
+    },
+    {
+      "path": "dist/app.js",
+      "size": 31197,
+      "sha256": "1bc45f34cc77f087fca1cf16af08a934bd8cca50d2778c8c91a8455e989f9f21"
+    },
+    {
+      "path": "dist/audio/oanh-thao-linh/01-verification.mp3",
+      "size": 651223,
+      "sha256": "17f0d538e358f1f6cd63a0df569fba33df3ab8324e537bf3adf0cf520ce339f9"
+    },
+    {
+      "path": "dist/audio/oanh-thao-linh/02-request.mp3",
+      "size": 616950,
+      "sha256": "ec278983e96cff7999f3fc1645f7af314c18f128ceaa753e8380592d9c7e1a59"
+    },
+    {
+      "path": "dist/audio/oanh-thao-linh/03-resolution.mp3",
+      "size": 1219647,
+      "sha256": "0278fcc0f0ad8ce545a1e29d636a8024746e9a8af259114a910db614bc4473bf"
+    },
+    {
+      "path": "dist/audio/oanh-thao-linh/playback-manifest.json",
+      "size": 9713,
+      "sha256": "086b234f9a5014097458c9b57de02a4557e401c35deb193520450d44734bac8a"
+    },
+    {
+      "path": "dist/audio/quynh-chi/01-verification.mp3",
+      "size": 582260,
+      "sha256": "65a6447af36571a007bd504d490e2c3a9243a614f8936c1181513d4ede9cecbd"
+    },
+    {
+      "path": "dist/audio/quynh-chi/02-request.mp3",
+      "size": 565541,
+      "sha256": "44458899797dbced269b1f3e297038a09cd7430de47d0e33cfaba9f7f567880d"
+    },
+    {
+      "path": "dist/audio/quynh-chi/03-resolution.mp3",
+      "size": 1130204,
+      "sha256": "5e5c69026e857fedbce8d2c227c0d1a4b4d23e2f75aa4d591f6610335dee737d"
+    },
+    {
+      "path": "dist/audio/quynh-chi/playback-manifest.json",
+      "size": 9958,
+      "sha256": "c68aaa85ec008ea6b068114a30e22ac4364535790b4293ae7b1ba55a81e22282"
+    },
+    {
+      "path": "dist/bridge.js",
+      "size": 3516,
+      "sha256": "062b46d011a120747aa0c82a94daae7437115bf86687b7051b772aa145ccfa62"
+    },
+    {
+      "path": "dist/details.js",
+      "size": 1608,
+      "sha256": "358d711e9eff3295c7e351b5b42d0bec7b9071952689d4632e036b8ee8a71288"
+    },
+    {
+      "path": "dist/index.html",
+      "size": 8592,
+      "sha256": "715d8e1fd8d4270b753305ba442e1773f7f5bd0ee310d7a2bda38471f8df0ab5"
+    },
+    {
+      "path": "dist/model.js",
+      "size": 9319,
+      "sha256": "aa7a6776ec70c4efc010ded6291bf10f34c7b2c5f05bdb874ea6c9eaff54c76d"
+    },
+    {
+      "path": "dist/style.css",
+      "size": 27152,
+      "sha256": "511b1eea465dbc0339410d88180d4aec3ec9aa0edf3d41ca724fcf6e65a95dbb"
+    },
+    {
+      "path": "dist/workflows.js",
+      "size": 3207,
+      "sha256": "56ef447fc8b228b19130da85e102393f02f4f86b6feb329dafb3f67559330ead"
+    },
+    {
+      "path": "integration/README.md",
+      "size": 8553,
+      "sha256": "71e7de82655893308528a2774c8f4546f503f95f6c0a42ca7f3e9d66d9d30af6"
+    },
+    {
+      "path": "integration/contracts.ts",
+      "size": 2299,
+      "sha256": "72eba0f221ff44abf01d441cac80dc799c6495a613646f52b3dd861e2a84b581"
+    },
+    {
+      "path": "integration/examples/client-adapter.js",
+      "size": 1720,
+      "sha256": "e03539d91c36261df31c679fe7a560bfc159165fbd6f5b2cbcb76142580823e1"
+    },
+    {
+      "path": "integration/examples/rewards-events.sse",
+      "size": 7942,
+      "sha256": "31fe829ae8341266eae3d2736b26cdd8222e1c1f4b7ff3b6569211cefd353fa7"
+    },
+    {
+      "path": "integration/examples/rewards-state.json",
+      "size": 13023,
+      "sha256": "43338a307bbf540ae626c2b4da83197bebbcc29ab04bf7ef803f3a821f454e5b"
+    },
+    {
+      "path": "integration/tests.mjs",
+      "size": 2669,
+      "sha256": "af554cc9c2dfc0834fa0006bf9921f1e18a1cfb7920678483cacb8928286d669"
+    },
+    {
+      "path": "package.json",
+      "size": 201,
+      "sha256": "4f995548f1fc6ebbfb63c0b24f8b4ee2898f7920bbaa5da102540bcbe5c1287d"
+    },
+    {
+      "path": "scripts/package_handoff.py",
+      "size": 2569,
+      "sha256": "28ccb6a03fd5e12ea0a1dbe903ae2ddd884ae925a8081ef0c2964037da73f812"
+    }
+  ]
+}

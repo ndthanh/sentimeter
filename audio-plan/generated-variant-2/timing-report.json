@@ -1,0 +1,30 @@
+{
+  "blocks": [
+    {
+      "id": "verification",
+      "duration_seconds": 40.672653,
+      "turns": 5,
+      "final_cue_seconds": 38.71999999999999,
+      "trailing_seconds": 1.953
+    },
+    {
+      "id": "request",
+      "duration_seconds": 38.530612,
+      "turns": 5,
+      "final_cue_seconds": 35.28,
+      "trailing_seconds": 3.251
+    },
+    {
+      "id": "resolution",
+      "duration_seconds": 76.199184,
+      "turns": 9,
+      "final_cue_seconds": 74.08,
+      "trailing_seconds": 2.119
+    }
+  ],
+  "warnings": [],
+  "total_audio_seconds": 155.402449,
+  "verified_by_listening": false,
+  "max_hold_seconds_at_20_percent": 38.85,
+  "note": "Timestamp structure and media durations checked; perceptual cue accuracy and accent require listening review."
+}

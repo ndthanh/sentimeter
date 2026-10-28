@@ -1,0 +1,242 @@
+{
+  "script_sha256": "314f3f78465c21497d88b26b1e7198c8097053b7ac23c081a42eae5ba7f1e097",
+  "language": "vi",
+  "blocks": [
+    {
+      "id": "verification",
+      "start_gate": "accept_call",
+      "audio": "01-verification.mp3",
+      "cues": [
+        {
+          "turn_id": "verification-01",
+          "speaker": "operator",
+          "text": "Em chào chị Hà, em là Linh Anh, tổng đài viên Techcombank. Để hỗ trợ chị, em xin phép xác nhận một số thông tin. Chị cho em biết ngày, tháng, năm sinh của chị được không ạ?",
+          "start": 0.0,
+          "end": 9.840000000000002,
+          "on_end": []
+        },
+        {
+          "turn_id": "verification-02",
+          "speaker": "customer",
+          "text": "Chị sinh ngày mười hai tháng ba năm một nghìn chín trăm chín mươi.",
+          "start": 9.840000000000002,
+          "end": 14.000000000000002,
+          "on_end": []
+        },
+        {
+          "turn_id": "verification-03",
+          "speaker": "operator",
+          "text": "Dạ, ngày sinh của chị đã khớp với thông tin trên hệ thống. Chị vui lòng đọc giúp em số căn cước công dân ạ.",
+          "start": 14.000000000000002,
+          "end": 20.880000000000003,
+          "on_end": []
+        },
+        {
+          "turn_id": "verification-04",
+          "speaker": "customer",
+          "text": "Số căn cước của chị là không không một, không chín không, không không chín, hai tám một.",
+          "start": 20.880000000000003,
+          "end": 27.680000000000003,
+          "on_end": []
+        },
+        {
+          "turn_id": "verification-05",
+          "speaker": "operator",
+          "text": "Em đã đối chiếu, thông tin căn cước của chị trùng khớp. Cảm ơn chị. Hôm nay em có thể hỗ trợ chị vấn đề gì ạ?",
+          "start": 27.680000000000003,
+          "end": 35.52,
+          "on_end": []
+        }
+      ],
+      "ui_cues": [
+        {
+          "event": "verify_dob",
+          "time_seconds": 16.96,
+          "turn_id": "verification-03",
+          "source": "character_alignment",
+          "anchor": "Dạ, ngày sinh của chị đã khớp với thông tin trên hệ thống."
+        },
+        {
+          "event": "verify_national_id",
+          "time_seconds": 31.68,
+          "turn_id": "verification-05",
+          "source": "character_alignment",
+          "anchor": "Em đã đối chiếu, thông tin căn cước của chị trùng khớp."
+        },
+        {
+          "event": "identity_verified",
+          "time_seconds": 31.68,
+          "turn_id": "verification-05",
+          "source": "character_alignment",
+          "anchor": "Em đã đối chiếu, thông tin căn cước của chị trùng khớp."
+        }
+      ]
+    },
+    {
+      "id": "request",
+      "start_gate": "verification_ended",
+      "audio": "02-request.mp3",
+      "cues": [
+        {
+          "turn_id": "request-01",
+          "speaker": "customer",
+          "text": "Ngày mười lăm tháng mười, chị có chi tiêu mười hai triệu đồng bằng thẻ tín dụng trên Trip chấm com, mà đến giờ chị vẫn chưa thấy được cộng điểm thưởng. Em kiểm tra giúp chị với.",
+          "start": 0.0,
+          "end": 10.080000000000002,
+          "on_end": []
+        },
+        {
+          "turn_id": "request-02",
+          "speaker": "operator",
+          "text": "Dạ, em ghi nhận chị muốn kiểm tra điểm thưởng cho giao dịch mười hai triệu đồng tại Trip chấm com, ngày mười lăm tháng mười. Đúng giao dịch này phải không chị?",
+          "start": 10.080000000000002,
+          "end": 19.12,
+          "on_end": []
+        },
+        {
+          "turn_id": "request-03",
+          "speaker": "customer",
+          "text": "Đúng rồi em. Chị thấy giao dịch trực tuyến được tích điểm nên muốn biết vì sao giao dịch này lại chưa có.",
+          "start": 19.12,
+          "end": 25.200000000000003,
+          "on_end": []
+        },
+        {
+          "turn_id": "request-04",
+          "speaker": "operator",
+          "text": "Dạ, chị cho em xin phép giữ máy trong giây lát để kiểm tra thông tin giao dịch và lịch sử tích điểm cho chị nhé.",
+          "start": 25.200000000000003,
+          "end": 31.280000000000005,
+          "on_end": []
+        },
+        {
+          "turn_id": "request-05",
+          "speaker": "customer",
+          "text": "Ừ, em kiểm tra giúp chị nhé.",
+          "start": 31.280000000000005,
+          "end": 33.760000000000005,
+          "on_end": []
+        }
+      ],
+      "ui_cues": [
+        {
+          "event": "request_captured",
+          "time_seconds": 10.080000000000002,
+          "turn_id": "request-01",
+          "source": "turn_boundary",
+          "anchor": "Ngày mười lăm tháng mười, chị có chi tiêu mười hai triệu đồng bằng thẻ tín dụng trên Trip chấm com, mà đến giờ chị vẫn chưa thấy được cộng điểm thưởng. Em kiểm tra giúp chị với."
+        },
+        {
+          "event": "classify_case",
+          "time_seconds": 10.080000000000002,
+          "turn_id": "request-01",
+          "source": "turn_boundary",
+          "anchor": "Ngày mười lăm tháng mười, chị có chi tiêu mười hai triệu đồng bằng thẻ tín dụng trên Trip chấm com, mà đến giờ chị vẫn chưa thấy được cộng điểm thưởng. Em kiểm tra giúp chị với."
+        },
+        {
+          "event": "hold_enabled",
+          "time_seconds": 33.760000000000005,
+          "turn_id": "request-05",
+          "source": "turn_boundary",
+          "anchor": "Ừ, em kiểm tra giúp chị nhé."
+        }
+      ]
+    },
+    {
+      "id": "resolution",
+      "start_gate": "resume_call",
+      "audio": "03-resolution.mp3",
+      "cues": [
+        {
+          "turn_id": "resolution-01",
+          "speaker": "operator",
+          "text": "Cảm ơn chị Hà đã chờ. Em đã kiểm tra và thấy giao dịch mười hai triệu đồng tại Trip chấm com đang ở trạng thái thất bại trên hệ thống điểm thưởng. Đây là lý do giao dịch chưa được cộng điểm cho chị.",
+          "start": 0.0,
+          "end": 11.36,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-02",
+          "speaker": "customer",
+          "text": "Vậy có phải chị đã tích đủ hạn mức điểm trong tháng rồi không em?",
+          "start": 11.36,
+          "end": 14.719999999999999,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-03",
+          "speaker": "operator",
+          "text": "Dạ không chị. Các giao dịch tích điểm thành công trong tháng của chị hiện là một trăm tám mươi nghìn điểm, còn hạn mức là năm trăm nghìn điểm. Em cũng đã đối chiếu điều kiện của thẻ và mã ngành của đơn vị chấp nhận thẻ; giao dịch đáp ứng điều kiện chương trình. Trường hợp này chưa được cộng điểm vì giao dịch trên hệ thống điểm thưởng báo thất bại.",
+          "start": 14.719999999999999,
+          "end": 34.96000000000001,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-04",
+          "speaker": "customer",
+          "text": "Vậy bây giờ chị cần làm gì để được kiểm tra lại?",
+          "start": 34.96000000000001,
+          "end": 38.24,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-05",
+          "speaker": "operator",
+          "text": "Em đề xuất lập yêu cầu kiểm tra giao dịch thất bại và chuyển bộ phận phụ trách đối soát quyền lợi điểm thưởng cho chị. Chị đồng ý để em ghi nhận yêu cầu này chứ ạ?",
+          "start": 38.24,
+          "end": 47.839999999999996,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-06",
+          "speaker": "customer",
+          "text": "Chị đồng ý. Em giúp chị ghi nhận nhé.",
+          "start": 47.839999999999996,
+          "end": 50.8,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-07",
+          "speaker": "operator",
+          "text": "Dạ, em đã ghi nhận nội dung chị yêu cầu. Ngân hàng sẽ liên hệ lại với chị qua số điện thoại đã đăng ký khi có kết quả xử lý. Chị còn cần em hỗ trợ thêm thông tin nào không ạ?",
+          "start": 50.8,
+          "end": 63.27999999999999,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-08",
+          "speaker": "customer",
+          "text": "Không, chị cảm ơn em.",
+          "start": 63.27999999999999,
+          "end": 64.55999999999999,
+          "on_end": []
+        },
+        {
+          "turn_id": "resolution-09",
+          "speaker": "operator",
+          "text": "Em cảm ơn chị Hà đã liên hệ Techcombank. Em chào chị ạ.",
+          "start": 64.55999999999999,
+          "end": 68.32,
+          "on_end": []
+        }
+      ],
+      "ui_cues": [
+        {
+          "event": "followup_enabled",
+          "time_seconds": 50.8,
+          "turn_id": "resolution-06",
+          "source": "turn_boundary",
+          "anchor": "Chị đồng ý. Em giúp chị ghi nhận nhé."
+        },
+        {
+          "event": "call_complete",
+          "time_seconds": 68.32,
+          "turn_id": "resolution-09",
+          "source": "turn_boundary",
+          "anchor": "Em cảm ơn chị Hà đã liên hệ Techcombank. Em chào chị ạ."
+        }
+      ]
+    }
+  ],
+  "cue_dispatch": "Use ui_cues only; original turn on_end events moved here."
+}

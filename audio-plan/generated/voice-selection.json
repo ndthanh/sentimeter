@@ -1,0 +1,12 @@
+{
+  "operator": {
+    "name": "Quỳnh - Vietnamese Northern female",
+    "voice_id": "r4jvtWFKsSYKwXqVd1Ur"
+  },
+  "customer": {
+    "name": "Chi",
+    "voice_id": "5yEPTrA0uAhZsBEhHjfi"
+  },
+  "selection_basis": "Voice Library metadata: vi, female, young, northern. Output accent has not been independently verified by listening.",
+  "script_sha256": "314f3f78465c21497d88b26b1e7198c8097053b7ac23c081a42eae5ba7f1e097"
+}
